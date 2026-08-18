@@ -67,3 +67,35 @@ n = 5
 #  num = 1
 #  1 - 2 - 1
 # num, 
+
+# Combination 
+# nCr = n! / r! * (n - r)!
+# 5C0 = 1
+# nC1 = 
+# ...
+# 5C5 = 1
+# curr = prev * (i - j) // (j + 1)
+
+n = 4
+for i in range(n): #1
+    num = 1
+    for j in range(n - i):
+        print(" ", end = "")
+    for k in range(i + 1):
+        print(num, end = " ")
+        num = num * ( i - k) // (k + 1) # 1 * (0) // 1) = 0
+    print()
+    
+#  [[1]]
+    
+# Pascal's Triangle
+#     1
+#    1 1
+#   1 2 1
+#  1 3 3 1
+# 1 4 6 4 1
+
+# Combination = nCr = n!/ r! * (n - r)!
+# 5
+# column chnages - spac dec, num increasing
+# 
