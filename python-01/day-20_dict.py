@@ -38,9 +38,9 @@ print(student)
 #     print(i, ":",j)
 
 
-# print(student['Subject'])
+print(student['Subject'])
 
-# print(student.get("Subject", 5))
+print(student.get("Subject"))
 
 
 
