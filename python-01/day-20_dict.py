@@ -1,6 +1,20 @@
-# Dictionary
+# Dictionary 
 # {} - json format 
 # Key - Value
+# {
+    # color:,
+    # size:,
+    # material:,
+    
+# }
+# {
+    # price:,
+    # RAM storage:,
+    # Processor:,
+    # Screen inches:,
+# }
+
+# String, integer, tuple 
 # {
 #  "Name": "Sanjay",
 #  "DOB": "12-04-2000",
@@ -23,7 +37,7 @@ student = {
     
 }
 
-print(student)
+# print(student)
 # # # Reading Keys only
 # print(student.keys())
 # for i in student.keys():
@@ -34,13 +48,12 @@ print(student)
 
 # # Reading Both
 # print(student.items())
-# for i, j in student.items():
-#     print(i, ":",j)
-
+for i,j in student.items():
+    print(i,j)
 
 print(student['Subject'])
 
-print(student.get("Subject"))
+print(student.get("Subject", 6))
 
 
 
@@ -66,12 +79,12 @@ print(student.get("Subject"))
 # # del student 
 # print(student)
 
-# temp = student.pop('Age', 0)
+# temp = student.pop('Age')
 # print(temp)
 # print(student)
 
 # to find length of the dictionary
-print(len(student))
+# print(len(student))
 
 # creating dict from Keys list
 # k = ['Name', 'Age', 'Class', 'Total_Marks']
@@ -88,5 +101,5 @@ print(len(student))
 # student.clear() -> keys, values
 
 # To check a key exists in dictionary 
-if "Age" in student:
-    print("It is present")
+# if "Age" in student:
+#     print("It is present")
