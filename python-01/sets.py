@@ -7,7 +7,7 @@
 # create, delete, read but no update --> tuple
 
 # Creating a set
-s = {1,2,3,4,5}
+s = {1,2,3,4,5,5}
 print(type(s))
 
 # Creating an empty set
@@ -27,7 +27,7 @@ s.update([2,3,4,5,7])
 print(s)
 
 # Delete 
-s.remove(4)
+s.remove(1)
 print(s)
 
 s.discard(20)
@@ -43,10 +43,12 @@ print(s)
 # print(s)
 
 len(s)
+print(1 in s)
 if 1 in s:
     print(True)
 for i in s:
     print(i)
+    
 # Set Operations
 # Union, Intersection, Difference
 
@@ -62,7 +64,7 @@ print("Union Set operation: ",d)
 # Intersection
 c = a.intersection(b)
 print("Intersection Set operation: ", c)
-d = a & b
+d = a & b 
 print("Intersection Set operation: ", d)
 
 # Difference
@@ -78,10 +80,11 @@ c = a ^ b
 print("Symmetric Difference: ", c)
 
 # subset, superset, disjoint set
-s1 = {6,7} #child
-s2 = {1,2,3,4,5} #parent
+s1 = {6, 7, 9} #child
+s2 = {1,2,3,4,5, 6, 7} #parent
 
 print(s1.issubset(s2))
+
 print(s1 <= s2)
 
 # superset
@@ -95,6 +98,6 @@ b = {1,2,3,4,4}
 
 # bank transaction - 
 # Difference between set and list
-# 1. in set No duplicacy
+# 1. in set No duplicacy, automatic duplicate removal
 # 2. No indexing
 # 3. unique 
