@@ -20,7 +20,7 @@
 # # print(arr)
 # # print(arr.sort())
 # # print(arr)
-# arr.reverse()
+# arr.reverse() arr[::-1]
 # arr.sort(reverse=True)
 # print(arr.count(3))
 
@@ -46,7 +46,7 @@
 # lst = list(range(10))
 # print(lst)
 # print(abs(-4))
-# print(round(4.67853))
+# print(round(4.67853)) -> 
 # print(all([True, False, False]))
 # print(all([False, False, False]))
 # print(all([True, True, True]))

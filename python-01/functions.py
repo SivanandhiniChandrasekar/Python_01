@@ -33,7 +33,7 @@
 # age = int(input("Enter age: "))
 # employee_ID = input("Enter ID: ")
 
-# customer_details(name,employee_ID)
+# customer_details(cust_name = name,employee_ID)
 
 # Variable length Keyword Argument
 # def bank_details(bank_name,**bank):
@@ -45,7 +45,7 @@
 
 # Variable length positional argument
 # def bank(*bank,custname):
-#     print(bank)
+#     print(bank) 
 #     print(custname)
 # bank(0, 123435, "Available balance: 9092", custname="Nandhini")
 
@@ -59,6 +59,7 @@ a = 10 # Global x variable
 #     x = 3.17  # Local x variable
 #     # print(x)
 #     return x + y 
+
 # print(add(a, 20)) # x = 10
 
 # print(a + 20)
@@ -81,11 +82,11 @@ details = {
 }
 stud(**details)
 
-function - what is function?
-why functon?
-arguments and parameters
-function call and function definition
-argument types - 
-return and print - difference
-Scope 
-variable unpacking
+# function - what is function?
+# why functon?
+# arguments and parameters
+# function call and function definition
+# argument types - 
+# return and print - difference
+# Scope 
+# variable unpacking
